@@ -1,34 +1,39 @@
-package trainning;
+package A;
 
-public class Cat extends Mammal {
+public class Cat extends Animal implements Comparable <Cat>{
 
-private int mustacheLength;	
-private int jumpHeight;	
+	private int jumpheight;
 
-public Cat (int weight, int height, String color, int mp, int mn, int ml, int jh) {
-super(weight, height, color, mp,mn);	
-
-this.mustacheLength = ml;
-this.jumpHeight = jh;
+public Cat (int jumpheight){
+	super();
+this.jumpheight = jumpheight;
 }
 
-public int getMustacheLength() {
-	return mustacheLength;
+public int getJumpheight() {
+	return jumpheight;
 }
 
-public void setMustacheLength(int mustacheLength) {
-	this.mustacheLength = mustacheLength;
+public void setJumpheight(int jumpheight) {
+	this.jumpheight = jumpheight;
 }
 
-public int getJumpHeight() {
-	return jumpHeight;
+public void eat (String food) {
+System.out.println("Meow!!! I have eaten a tasty" + food + " !!" );	
 }
 
-public void setJumpHeight(int jumpHeight) {
-	this.jumpHeight = jumpHeight;
+public void drink (String drink) {
+System.out.println("whoo I like " + drink + " !");	
 }
-public void print(String s) {	
-System.out.println(s);
+public boolean hasEaten() {
+return true;
+}
+
+@Override
+public int compareTo(Cat o) {
+	// TODO Auto-generated method stub
+	return this.jumpheight - o.jumpheight;
+
 }
 
 }
+

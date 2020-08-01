@@ -1,53 +1,43 @@
-package trainning;
+package A;
 
-public class Dog extends Mammal{
+public class Dog extends Animal {
 
-	private String type;
-	private String name;
+		private String voice;
 
-	private boolean isNatural;
-
-	public Dog(int weight, int height, String color, int mp, int mn, String type, String name, boolean isNatural) {
-		super(weight,height,color,mp,mn);	
-
-		this.type = type + "";
-		this.name = name + "";
-
-		this.isNatural = isNatural;
-	}
-
-	public String getType() {
-		return type;
-	}
-
-	public void setType(String type) {
-		this.type = type;
-	}
-
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
-
-	public boolean isNatural() {
-		return isNatural;
-	}
-
-	public void setNatural(boolean isNatural) {
-		this.isNatural = isNatural;
-	}
-
-	@Override
-	public String toString() {
-		return "Dog [type=" + type + ", name=" + name + ", isNatural=" + isNatural + "]";
-	}
-
-public void print (String s) {
-System.out.println("!" + s + "!");	
+public Dog (String voice) {
+super();	
+this.voice = voice + "";
 }
+
+public String getVoice() {
+	return voice;
+}
+
+public void setVoice(String voice) {
+	this.voice = voice;
+}
+public void eat (String food) {
+System.out.println(this.voice + "mmm this " + food + " war really good!!!");	
+}
+
+public void drink (String drink) {
+System.out.println(":( I prefer water! " + "( " + drink + ") ");	
+}
+public boolean hasEaten() {
+return false;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

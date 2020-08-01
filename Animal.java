@@ -1,48 +1,36 @@
-package trainning;
+package A;
 
-public abstract class Animal {
-	protected int weight;
-	protected int height;
+public abstract class Animal implements IEat22 {
 
-	protected String color;
+protected int height; 	
+protected int weight;	
 
-	public Animal () {
-		this.weight = 30;	
-		this.height = 120;
-	}
+public Animal () {
 
-	public Animal (int weight, int height, String color) {
-		this.weight = weight;	
-		this.height = height;
-		this.color = color + "";
-	}
+	this.height = 120;
+	this.weight = 30;
+}
 
-	public abstract void print(String s);
+public int getHeight() {
+	return height;
+}
 
-	public int getWeight() {
-		return weight;
-	}
+public void setHeight(int height) {
+	this.height = height;
+}
 
-	public void setWeight(int weight) {
-		this.weight = weight;
-	}
+public int getWeight() {
+	return weight;
+}
 
-	public int getHeight() {
-		return height;
-	}
+public void setWeight(int weight) {
+	this.weight = weight;
+}
 
-	public void setHeight(int height) {
-		this.height = height;
-	}
-
-	public String getColor() {
-		return color;
-	}
-
-	public void setColor(String color) {
-		this.color = color;
-	}
-
+public void eat () {
+	System.out.println("I have eaten something");
 }
 
 
+
+}
