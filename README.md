@@ -5,7 +5,7 @@ there are all kinds of little things' and answers for exsams from the bagruiot
 
 there are some different packege, so be aware of it.
 
-1. training
-2. A
-3. IO
-4. default package
+1. [training](#training)
+2. [A](#A)
+3. [IO](#IO)
+4. [default package](#default package)
