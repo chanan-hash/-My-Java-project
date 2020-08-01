@@ -8,4 +8,4 @@ there are some different packege, so be aware of it.
 1. [training](#training)
 2. [A](#A)
 3. [IO](#IO)
-4. [default package](#default package)
+4. [default package](#defaultpackage)
