@@ -1,4 +1,4 @@
-// בגרות 2016 שאלה 8
+// 2016 Bagrut (final exam) question 8 
 
 package A;
 import java.util.Scanner;
@@ -37,8 +37,7 @@ public class number8 {
 		System.out.println("num of participants is: " + count);
 		System.out.println("max family price is: " + max);
 
-
-
+		input.close();
 	}
 
 }

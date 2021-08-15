@@ -1,4 +1,4 @@
-//בגרות 2010 שאלה 5
+// 2010 Bagrut (final exam) question 5 
 
 package A;
 
@@ -8,27 +8,28 @@ public class Nuber5 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-Scanner input  = new Scanner(System.in);
+		Scanner input  = new Scanner(System.in);
 
-System.out.println("Enter number a: ");
-int a = input.nextInt();
+		System.out.println("Enter number a: ");
+		int a = input.nextInt();
 
-System.out.println("Enter number b: ");
-int b = input.nextInt();
+		System.out.println("Enter number b: ");
+		int b = input.nextInt();
 
-int sum = 0;
+		int sum = 0;
 
-while(a*b!=0) {
-	sum+=a*b;
+		while(a*b!=0) {
+			sum+=a*b;
 
-	System.out.println("Enter number a: ");
-	  a = input.nextInt();
+			System.out.println("Enter number a: ");
+			a = input.nextInt();
 
-	System.out.println("Enter number b: ");
-	  b = input.nextInt();
+			System.out.println("Enter number b: ");
+			b = input.nextInt();
 
-}
- System.out.println("sum = " + sum);
+		}
+		System.out.println("sum = " + sum);
+		input.close();	
 	}
 
 }
