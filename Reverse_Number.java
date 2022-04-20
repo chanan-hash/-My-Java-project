@@ -38,7 +38,7 @@ public class Reverse_Number {
 
 }
 /*
- *  let me show how the number is being reversed  - lets debug it be "hand"
+ *  let me show how the number is being reversed  - lets debug it by "hand"
  *  for example lets take the number 782
  *  
  *  first iteration:
@@ -59,25 +59,25 @@ public class Reverse_Number {
  *			num - 78
  *
  *			rev = 2 * 10 --> 20
- *			rev = 20 + num % 10 --> 20 + 7 = 27
+ *			rev = 20 + num % 10 --> 20 + 8 = 28
  *
- *			num = num/10 --> 78/10 = 8
+ *			num = num/10 --> 78/10 = 7
  *			
- *			rev - 27
- *			num = 8
+ *			rev - 28
+ *			num = 7
  *
  *
  *	third iteration:
- *			rev - 27
- *			num - 8
+ *			rev - 28
+ *			num - 7
  *
- *			rev = 27 * 10 --> 270
- *			rev = 270 + num % 10 --> 270 + 8 = 278
+ *			rev = 28 * 10 --> 280
+ *			rev = 280 + num % 10 --> 280 + 7 = 287
  *
  *			num = num/10 --> 8/10 --> because it is 'int' it becoming less than Zero, and the loop is finished
  *
  *			
- *	now we're printing 'rev' and its equal to 278, the reversed number from 782
+ *	now we're printing 'rev' and its equal to 287, the reversed number from 782
  *
  *	actually we didn't really reversed the number, we didn't change the places of the digits
  *	for doing that there are all kind of ways such as:
