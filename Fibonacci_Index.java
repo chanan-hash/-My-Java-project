@@ -3,7 +3,7 @@ package A;
 import java.util.Scanner;
 
 // Finding Fibonacci number by giving the index number
-//The idea to do Pyramid pattern in a loop came from "C++" course
+//The idea to do Fibonacci number in a loop came from "C++" course
 // https://www.geeksforgeeks.org/program-for-nth-fibonacci-number/
 // the third option there
 
